@@ -27,12 +27,20 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}      >
-          <header style={{
-            backgroundColor: "green"
-          }}
-            >Catalago de Filmes </header>
+         <header style={{
+          backgroundColor: "green",
+          textAlign: "center"
+        }}>
+  Catalogo de Filmes
+</header>
         {children}
-         <footer> Obrigado pela escolha </footer>
+        <footer style={{
+          marginTop: "200px", // Ajuste o valor conforme necessário
+          marginBottom: "200px",
+          textAlign: "center"
+        }}>
+  Bem vindo!
+</footer>
       </body>
     </html>
   );
