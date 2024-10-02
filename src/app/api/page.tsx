@@ -1,4 +1,4 @@
-"use client"; // Isso indica que este componente será renderizado no lado do cliente
+"use client"; 
 
 import React, { useState } from 'react';
 
@@ -22,7 +22,7 @@ const CadastroPage = () => {
         e.preventDefault();
 
         try {
-            const response = await fetch('/api/cadastro', { // Altere para a sua rota POST
+            const response = await fetch('/api/cadastro', { 
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -59,8 +59,8 @@ const CadastroPage = () => {
                             marginLeft: '10px', 
                             padding: '5px', 
                             width: '100%', 
-                            border: '1px solid #ccc', // Adicionando borda
-                            borderRadius: '4px' // Bordas arredondadas
+                            border: '1px solid #ccc', 
+                            borderRadius: '4px' 
                         }}
                     />
                 </div>
@@ -78,8 +78,8 @@ const CadastroPage = () => {
                             marginLeft: '10px', 
                             padding: '5px', 
                             width: '100%', 
-                            border: '1px solid #ccc', // Adicionando borda
-                            borderRadius: '4px' // Bordas arredondadas
+                            border: '1px solid #ccc', 
+                            borderRadius: '4px'
                         }}
                     />
                 </div>
@@ -96,8 +96,8 @@ const CadastroPage = () => {
                             marginLeft: '10px', 
                             padding: '5px', 
                             width: '100%', 
-                            border: '1px solid #ccc', // Adicionando borda
-                            borderRadius: '4px' // Bordas arredondadas
+                            border: '1px solid #ccc', 
+                            borderRadius: '4px' 
                         }}
                     >
                         <option value="">Selecione um status</option>
@@ -120,8 +120,8 @@ const CadastroPage = () => {
                             marginLeft: '10px', 
                             padding: '5px', 
                             width: '100%', 
-                            border: '1px solid #ccc', // Adicionando borda
-                            borderRadius: '4px' // Bordas arredondadas
+                            border: '1px solid #ccc', 
+                            borderRadius: '4px' 
                         }}
                     >
                         <option value="">Selecione um gênero</option>
@@ -148,8 +148,8 @@ const CadastroPage = () => {
                             marginLeft: '10px', 
                             padding: '5px', 
                             width: '100%', 
-                            border: '1px solid #ccc', // Adicionando borda
-                            borderRadius: '4px' // Bordas arredondadas
+                            border: '1px solid #ccc', 
+                            borderRadius: '4px' 
                         }}
                     />
                 </div>

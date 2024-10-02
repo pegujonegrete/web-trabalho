@@ -35,7 +35,7 @@ export default function RootLayout({
 </header>
         {children}
         <footer style={{
-          marginTop: "200px", // Ajuste o valor conforme necessário
+          marginTop: "200px", 
           marginBottom: "200px",
           textAlign: "center"
         }}>

@@ -1,4 +1,4 @@
-const URL_FILMES = 'http://www.omdbapi.com/?apikey=[suachave]&'
+/*const URL_FILMES = 'http://www.omdbapi.com/?apikey=[suachave]&'
 
 
 async function apiFilmes(firstLetter){
@@ -8,4 +8,4 @@ async function apiFilmes(firstLetter){
     } catch(error){
         console.log(error)
     }
-}
+}*/

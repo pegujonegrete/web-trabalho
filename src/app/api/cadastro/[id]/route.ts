@@ -7,12 +7,12 @@ export async function PATCH(
     const body = await request.json();
     const { titulo, ano, status, genero, diretor } = body;
 
-    // Convertendo 'ano' para string, se necessário
+    
     const anoString = ano !== undefined ? ano.toString() : undefined;
 
     const updatedFilme = await prisma.postfilme.update({
         where: {
-            id: parseInt(params.id), // Certifique-se de que esse ID existe
+            id: parseInt(params.id), 
         },
         data: {
             titulo,
@@ -37,7 +37,7 @@ export async function DELETE(
 ) {
     const deletedFilme = await prisma.postfilme.delete({
         where: {
-            id: parseInt(params.id), // Certifique-se de que esse ID existe
+            id: parseInt(params.id), 
         },
     });
 
